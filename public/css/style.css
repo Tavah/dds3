@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.welcome h1 {
+    padding: 3em;
+}
+
+.intro{
+    height: 100vh;
+}
+
+.intro video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: white;
+}
+
+.outro h1 {
+    padding: 3em;
+}
+
+section{
+    height: 100%;
+    color: black;
+}
+
+section h1 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 5rem;
+}
